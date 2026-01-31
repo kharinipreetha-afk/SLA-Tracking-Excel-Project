@@ -31,8 +31,24 @@ The system is built with the following principles:
 - **Scalability across telecallers**
 - **Reporting-ready structure (Power BI compatible)**
 
+#Excel web compatibility
+*No heavy VBA dependency
+*cloud-Friendly
+*shareable
+*operationally realistic
 No VBA macros are required for core SLA logic — ensuring transparency and maintainability.
+---
 
+## Live Usage & Operational Scale
+
+- This SLA tracking system has been **actively used in live operations for over 2 months and is still in continuous use**
+- The sheet is currently used by **6–7 telecallers simultaneously** for daily lead tracking and SLA monitoring
+- The logic has remained stable with **no formula failures or structural issues**
+- Designed to support multi-user operational workflows without dependency on complex macros
+- Successfully handles real-world scenarios such as follow-ups, SLA breaches, conversions, and billing references
+- Bill copies are **hyperlinked directly** in the sheet for quick access and audit traceability
+
+This confirms the system is **production-running and operationally validated**, not a one-time or sample project.
 ---
 
 ## End-to-End Workflow
@@ -102,6 +118,15 @@ INVOICE NUMBER
 BILLING DATE  
 BILL COPY  
 REMARKS  
+---
+
+## Billing Proof & Hyperlinking
+
+- For closed-converted leads, bill copies are **hyperlinked directly** in the Excel sheet
+- Each hyperlink points to a stored invoice image or document
+- This enables quick verification of billing without searching external folders
+- Helps maintain **audit traceability** between lead, sale, and invoice
+- In this portfolio version, sample (dummy) bill copies are linked for demonstration
 
 ---
 
@@ -122,7 +147,6 @@ REMARKS
 ### Error-Safe Conditional Logic
 **Functions Used:**
 - IF
-- IFS
 - AND
 - IFERROR
 
