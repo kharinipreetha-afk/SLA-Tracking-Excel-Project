@@ -221,3 +221,15 @@ It reflects real operational constraints — not textbook examples.
 
 ## Author Note
 This system was built, tested, and used in a live environment for daily SLA and telecaller performance reporting.
+---
+
+## Screenshots
+
+### SLA Tracking & Status
+![SLA Status](screenshots/SLA_STATUS.Png.jpeg)
+
+### Billing Section
+![Billing Section](screenshots/Billing%20Section.Png.jpeg)
+
+### Master Drop-down Configuration
+![Master Dropdown](screenshots/Master_dropdown.png.jpeg)
